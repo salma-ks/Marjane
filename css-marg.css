@@ -1,0 +1,2547 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+body{
+  background-color: rgba(190, 200, 219, 0.664);
+  height: 3700px;
+}
+.CC{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.middel{
+  list-style-type: none;
+  background-color: white;
+  box-shadow: 0px 0px 5px  rgb(10, 9, 9);
+  
+}
+.middel li{
+  display: inline-block;
+  position: relative;
+  left:550px;
+  
+   
+}
+.middel li a{
+  text-decoration: none;
+  display: block;
+  padding: 32px 30px;
+  font-size: 15px;
+  text-align: left;
+  background-color:white  ;
+  color: rgb(112, 109, 109);
+  font-family:"NotoSans";
+ 
+}
+.seach{
+  border-radius: 50px;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top:27px;left:345px;
+  box-shadow: inset 0 0 30px  rgb(214, 226, 237);
+  border: 2px solid rgb(208, 208, 239);
+  color: rgb(165, 170, 197);
+}
+.headicon{
+width: 15px;
+height: 15px;
+background-color: #0055A6;
+border-radius: 100px;
+position: absolute;
+top: 30px;
+left: 1170px;
+}   
+.bodyicon{
+width: 20px;
+height: 10px;
+background-color: #0055A6;
+border-radius: 100px/100px 100px 0px 0px;
+position: absolute;
+top: 45px;
+left: 1168px;
+}
+.house{
+color:#0055A6;
+position:absolute;
+top:7px;
+left:0px;
+}
+.shop{
+color:#0055A6;
+position:absolute;
+top:25px;
+right:10px;
+}
+.search{
+position: absolute;
+top:35px;
+left:353px ;
+color:rgb(186, 70, 12) ;
+}
+.bluetext{
+width: 130px;
+height: 70px;
+position: absolute;
+top: 0px;
+left: 50px;
+}
+.orangetext{
+width: 130px;
+height: 60px;
+position: absolute;
+top: 10px;
+left: 190px;
+}
+.charta{
+
+position: absolute;
+top: 95px;
+left: 1000px;
+color: #0055A6;
+font-family: "NotoSans";
+font-size: 15px;
+font-weight: bold; 
+
+
+}
+.hamllwajiha{
+background-color: white;
+width: 100%;
+height: 3025px;
+position: absolute;
+top:130px ;
+}
+.bigimage{
+width: 750px;
+position: absolute;
+top:30px ;
+right: 10px;
+border-radius: 15px;
+cursor: pointer;
+}
+.smallone{
+position: absolute;
+background-color: white;
+font-size: 17px;
+width: 370px;
+height: 170px;
+box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+top: 30px;
+left: 100px;
+border-radius: 7px;
+
+}
+.smallone .ta3ajob{
+color: black;
+position: absolute;
+left: 20px;
+}
+.redbutton{
+background-color: #DD4C67;
+color: white;
+width: 150px;
+height: 40px;
+border-radius: 50px;
+position: absolute;
+top:100px;
+text-align: center;
+left: 20px;
+cursor: pointer;
+opacity: 1;
+}
+.redbutton .inbutton{
+font-size: 15px;
+position: absolute;
+top: 10px;
+left: 23px; 
+font-weight: bold;
+}
+.money{
+position: absolute;
+width: 130px;
+height: 170px;
+top:-100px;
+left: 250px;
+opacity: 1;
+}
+.talita{
+width: 370px;
+height: 170px;
+box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+top: 220px;
+left: 100px;
+border-radius: 8px;
+position: absolute;
+opacity: 1;
+object-fit: cover;
+cursor: pointer;
+}
+.tahtalita{
+color:#0055A6;
+font-size: 20px;
+position: absolute;
+left: 100px;
+top: 420px;
+font-weight: bold;
+}
+.smalltext{
+color: #0055A6;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+}
+.z1{
+width: 70px;
+height: 70px;
+}
+.vege{
+position: absolute;
+top: 500px;
+left: 70px;
+cursor: pointer;
+}
+.bread{
+position: absolute;
+top: 500px;
+left: 155px;
+cursor: pointer;
+}
+.ajban{
+position: absolute;
+top: 500px;
+left: 240px;
+cursor: pointer;
+}
+.siha{
+position: absolute;
+top: 500px;
+left: 325px;
+cursor: pointer;
+}
+.fator{
+position: absolute;
+top: 500px;
+left: 410px;
+cursor: pointer;
+}
+.drink{
+position: absolute;
+top: 500px;
+left: 495px;
+cursor: pointer;
+}
+.potato{
+position: absolute;
+top: 500px;
+left: 580px;
+cursor: pointer;
+}
+.ice{
+position: absolute;
+top: 500px;
+left: 665px;
+cursor: pointer;
+}
+.bottele{
+position: absolute;
+top: 500px;
+left: 750px;
+cursor: pointer;
+}
+.ver{
+position: absolute;
+top: 500px;
+left: 835px;
+cursor: pointer;
+}
+.move{
+position: absolute;
+top: 500px;
+left: 920px;
+cursor: pointer;
+}
+.pink{
+position: absolute;
+top: 500px;
+left: 1005px;
+cursor: pointer;
+}
+.nettoyage{
+position: absolute;
+top: 500px;
+left: 1090px;
+cursor: pointer;
+}
+.aqua{
+position: absolute;
+top: 500px;
+left: 1175px;
+cursor: pointer;
+}
+.add-1{
+border-radius: 10px;
+width: 570px;
+height: 140px;
+position: absolute;
+top: 640px;
+left: 80px;
+cursor: pointer;
+}
+.add-2{
+border-radius: 10px;
+width: 570px;
+height: 140px;
+position: absolute;
+top: 640px;
+left: 680px;
+cursor: pointer;
+}
+.tahtadd-1-2{
+color:#0055A6;
+font-size: 20px;
+position: absolute;
+left: 95px;
+top: 820px;
+font-weight: bold;
+}
+.buy1{
+  width:230px ;
+  height:370px ;
+  background-color:white ;
+  box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+  position: absolute;
+  top: 900px;
+  left: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.id1{
+  color:#0055A6;
+font-size: 17px;
+position: absolute;
+left: 10px;
+top: 240px;
+font-weight: bold;
+
+}
+.ege{
+  width:200px ;
+  height:226px ;
+  position: absolute;
+ left: 20px;
+}
+.ten{
+ position: absolute;
+ z-index: 3;
+ width: 90px;
+ height: 90px;
+}
+.plus1{
+  position: absolute;
+  color: #0055A6;
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 200px;
+
+}
+.STIK1{
+  position: absolute;
+   left: 190px;
+   top: 300px;
+ }
+ .RED1{
+   width: 63px;
+   height:25px ;
+   color:#DD4C67 ;
+   background-color:#FFE9EF ;
+   padding: 2px 6px;
+   border-radius: 50px;
+   position: absolute;
+   top:320px;
+   left:150px ;
+ }
+
+.buy2{
+  width:230px ;
+  height:370px ;
+  background-color:white ;
+  box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+  position: absolute;
+  top: 900px;
+  left: 280px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.id2{
+  color:#0055A6;
+font-size: 17px;
+position: absolute;
+left: 10px;
+top: 260px;
+font-weight: bold;
+
+}
+.NUT{
+  width:200px ;
+  height:226px ;
+  position: absolute;
+  left: 20px;
+}
+.ten{
+ position: absolute;
+ z-index: 3;
+ width: 90px;
+ height: 90px;
+}
+.plus2{
+  position: absolute;
+  color: #0055A6;
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 200px;
+
+}
+.STIK2{
+ position: absolute;
+  left: 190px;
+  top: 300px;
+}
+.RED2{
+  width: 63px;
+  height:25px ;
+  color:#DD4C67 ;
+  background-color:#FFE9EF ;
+  padding: 2px 6px;
+  border-radius: 50px;
+  position: absolute;
+  top:320px;
+  left:150px ;
+}
+.buy3{
+  width:230px ;
+  height:370px ;
+  background-color:white ;
+  box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+  position: absolute;
+  top: 900px;
+  left: 530px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.id3{
+  color:#0055A6;
+font-size: 17px;
+position: absolute;
+left: 10px;
+top: 260px;
+font-weight: bold;
+
+}
+.CLI{
+  width:200px ;
+  height:226px ;
+  position: absolute;
+  left: 20px;
+}
+.ten{
+ position: absolute;
+ z-index: 3;
+ width: 90px;
+ height: 90px;
+}
+.plus3{
+  position: absolute;
+  color: #0055A6;
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 200px;
+
+}
+.STIK3{
+ position: absolute;
+  left: 190px;
+  top: 300px;
+}
+.RED3{
+  width: 63px;
+  height:25px ;
+  color:#DD4C67 ;
+  background-color:#FFE9EF ;
+  padding: 2px 6px;
+  border-radius: 50px;
+  position: absolute;
+  top:320px;
+  left:150px ;
+}
+.buy4{
+  width:230px ;
+  height:370px ;
+  background-color:white ;
+  box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+  position: absolute;
+  top: 900px;
+  left: 780px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.id4{
+  color:#0055A6;
+font-size: 17px;
+position: absolute;
+left: 10px;
+top: 260px;
+font-weight: bold;
+
+}
+.ZIT{
+  width:200px ;
+  height:226px ;
+  position: absolute;
+  left: 20px;
+}
+.ten{
+ position: absolute;
+ z-index: 3;
+ width: 90px;
+ height: 90px;
+}
+.plus4{
+  position: absolute;
+  color: #0055A6;
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 200px;
+
+}
+.STIK4{
+ position: absolute;
+  left: 190px;
+  top: 300px;
+}
+.RED4{
+  width: 63px;
+  height:25px ;
+  color:#DD4C67 ;
+  background-color:#FFE9EF ;
+  padding: 2px 6px;
+  border-radius: 50px;
+  position: absolute;
+  top:320px;
+  left:150px ;
+}
+.buy5{
+  width:230px ;
+  height:370px ;
+  background-color:white ;
+  box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+  position: absolute;
+  top: 900px;
+  left: 1025px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.id5{
+  color:#0055A6;
+font-size: 17px;
+position: absolute;
+left: 10px;
+top: 260px;
+font-weight: bold;
+
+}
+.WATER{
+  width:200px ;
+  height:226px ;
+  position: absolute;
+  left: 20px;
+}
+.ten{
+ position: absolute;
+ z-index: 3;
+ width: 90px;
+ height: 90px;
+}
+.plus5{
+  position: absolute;
+  color: #0055A6;
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 200px;
+
+}
+.STIK5{
+ position: absolute;
+  left: 190px;
+  top: 300px;
+}
+.RED5{
+  width: 63px;
+  height:25px ;
+  color:#DD4C67 ;
+  background-color:#FFE9EF ;
+  padding: 2px 6px;
+  border-radius: 50px;
+  position: absolute;
+  top:320px;
+  left:150px ;
+}
+.tahtaddbuys{
+  color:#0055A6;
+font-size: 20px;
+position: absolute;
+left: 95px;
+top: 1300px;
+font-weight: bold;
+}
+.text{
+  color: #0055A6;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  }
+  .s1{
+  width: 70px;
+  height: 70px;
+  }
+  .maki{
+  position: absolute;
+  top: 1350px;
+  left: 400px;
+  cursor: pointer;
+  }
+  .monik{
+  position: absolute;
+  top: 1350px;
+  left: 500px; 
+  cursor: pointer;
+  }
+  .clim{
+  position: absolute;
+  top: 1350px;
+  left: 600px;
+  cursor: pointer;
+  }
+    .camera{
+    position: absolute;
+    top: 1350px;
+    left: 700px;
+    cursor: pointer;
+    }
+    .phone{
+    position: absolute;
+    top: 1350px;
+    left: 800px;
+    cursor: pointer;
+    }
+    .add3{
+      border-radius: 10px;
+      width: 570px;
+      height: 140px;
+      position: absolute;
+      top: 1500px;
+      left: 80px;
+      cursor: pointer;
+      }
+      .add4{
+      border-radius: 10px;
+      width: 570px;
+      height: 140px;
+      position: absolute;
+      top: 1500px;
+      left: 680px;
+      cursor: pointer;
+      }
+      .tahtadd3-4{
+        color:#0055A6;
+      font-size: 20px;
+      position: absolute;
+      left: 95px;
+      top: 1670px;
+      font-weight: bold;
+      }
+      .buy6{
+        width:230px ;
+        height:370px ;
+        background-color:white ;
+        box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+        position: absolute;
+        top: 1730px;
+        left: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .id6{
+        color:#0055A6;
+      font-size: 17px;
+      position: absolute;
+      left: 10px;
+      top: 240px;
+      font-weight: bold;
+      
+      }
+      .dragon{
+        width:200px ;
+        height:226px ;
+        position: absolute;
+        left: 20px;
+      }
+      .plus6{
+        position: absolute;
+        color: #0055A6;
+        width: 40px;
+        height: 40px;
+        left: 170px;
+        top: 200px;
+      
+      }
+      
+      .buy7{
+        width:230px ;
+        height:370px ;
+        background-color:white ;
+        box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+        position: absolute;
+        top: 1730px;
+        left: 280px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .id7{
+        color:#0055A6;
+      font-size: 17px;
+      position: absolute;
+      left: 10px;
+      top: 260px;
+      font-weight: bold;
+      
+      }
+      .khokha{
+        width:200px ;
+        height:226px ;
+        position: absolute;
+        left: 20px;
+      }
+      .eleven{
+       position: absolute;
+       z-index: 3;
+       width: 90px;
+       height: 90px;
+      }
+      .plus7{
+        position: absolute;
+        color: #0055A6;
+        width: 40px;
+        height: 40px;
+        left: 170px;
+        top: 200px;
+      
+      }
+      .STIK7{
+       position: absolute;
+        left: 190px;
+        top: 300px;
+      }
+      .RED7{
+        width: 63px;
+        height:25px ;
+        color:#DD4C67 ;
+        background-color:#FFE9EF ;
+        padding: 2px 6px;
+        border-radius: 50px;
+        position: absolute;
+        top:320px;
+        left:150px ;
+      }
+      .buy8{
+        width:230px ;
+        height:370px ;
+        background-color:white ;
+        box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+        position: absolute;
+        top: 1730px;
+        left: 530px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .id8{
+        color:#0055A6;
+      font-size: 17px;
+      position: absolute;
+      left: 10px;
+      top: 260px;
+      font-weight: bold;
+      
+      }
+      .enb{
+        width:200px ;
+        height:226px ;
+        position: absolute;
+        left: 20px;
+      }
+      .plus8{
+        position: absolute;
+        color: #0055A6;
+        width: 40px;
+        height: 40px;
+        left: 170px;
+        top: 200px;
+      
+      }
+      .buy9{
+        width:230px ;
+        height:370px ;
+        background-color:white ;
+        box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+        position: absolute;
+        top: 1730px;
+        left: 780px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .id9{
+        color:#0055A6;
+      font-size: 17px;
+      position: absolute;
+      left: 10px;
+      top: 260px;
+      font-weight: bold;
+      
+      }
+      .enbkhal{
+        width:200px ;
+        height:226px ;
+        position: absolute;
+        left: 20px;
+      }
+      .plus9{
+        position: absolute;
+        color: #0055A6;
+        width: 40px;
+        height: 40px;
+        left: 170px;
+        top: 200px;
+      
+      }
+      .buy10{
+        width:230px ;
+        height:370px ;
+        background-color:white ;
+        box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+        position: absolute;
+        top: 1730px;
+        left: 1025px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .id10{
+        color:#0055A6;
+      font-size: 17px;
+      position: absolute;
+      left: 10px;
+      top: 260px;
+      font-weight: bold;
+      
+      }
+      .enbhamr{
+        width:200px ;
+        height:226px ;
+        position: absolute;
+        left: 20px;
+      }
+      .plus10{
+        position: absolute;
+        color: #0055A6;
+        width: 40px;
+        height: 40px;
+        left: 170px;
+        top: 200px;
+      }
+      .add5{
+        border-radius: 10px;
+        width: 570px;
+        height: 170px;
+        position: absolute;
+        top: 2150px;
+        left: 80px;
+        cursor: pointer;
+        }
+        .add6{
+        border-radius: 10px;
+        width: 570px;
+        height: 170px;
+        position: absolute;
+        top: 2150px;
+        left: 680px;
+        cursor: pointer;
+        }
+        .tahtadd5-6{
+          color:#04376c;
+        font-size: 20px;
+        position: absolute;
+        left: 95px;
+        top: 2350px;
+        font-weight: bolder;
+        line-height: 25px;
+        }  
+        .buy12{
+          width:230px ;
+          height:370px ;
+          background-color:white ;
+          box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+          position: absolute;
+          top: 2400px;
+          left: 30px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        .id12{
+          color:#0055A6;
+        font-size: 17px;
+        position: absolute;
+        left: 10px;
+        top: 240px;
+        font-weight: bold;
+        
+        }
+        .sais{
+          width:200px ;
+          height:226px ;
+          position: absolute;
+          left: 20px;
+        }
+        .plus12{
+          position: absolute;
+          color: #0055A6;
+          width: 40px;
+          height: 40px;
+          left: 170px;
+          top: 200px;
+        
+        }
+        
+        .buy13{
+          width:230px ;
+          height:370px ;
+          background-color:white ;
+          box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+          position: absolute;
+          top: 2400px;
+          left: 280px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        .id13{
+          color:#0055A6;
+        font-size: 17px;
+        position: absolute;
+        left: 10px;
+        top: 260px;
+        font-weight: bold;
+        
+        }
+        .bahi{
+          width:200px ;
+          height:226px ;
+          position: absolute;
+          left: 20px;
+        }
+        .plus13{
+          position: absolute;
+          color: #0055A6;
+          width: 40px;
+          height: 40px;
+          left: 170px;
+          top: 200px;
+        
+        }
+        .buy14{
+          width:230px ;
+          height:370px ;
+          background-color:white ;
+          box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+          position: absolute;
+          top: 2400px;
+          left: 530px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        .id14{
+          color:#0055A6;
+        font-size: 17px;
+        position: absolute;
+        left: 10px;
+        top: 260px;
+        font-weight: bold;
+        
+        }
+        .mochoi{
+          width:200px ;
+          height:226px ;
+          position: absolute;
+          left: 20px;
+        }
+        .plus14{
+          position: absolute;
+          color: #0055A6;
+          width: 40px;
+          height: 40px;
+          left: 170px;
+          top: 200px;
+        
+        }
+        .buy15{
+          width:230px ;
+          height:370px ;
+          background-color:white ;
+          box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+          position: absolute;
+          top: 2400px;
+          left: 780px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        .id15{
+          color:#0055A6;
+        font-size: 17px;
+        position: absolute;
+        left: 10px;
+        top: 260px;
+        font-weight: bold;
+        
+        }
+        .sali{
+          width:200px ;
+          height:226px ;
+          position: absolute;
+          left: 20px;
+        }
+        .plus15{
+          position: absolute;
+          color: #0055A6;
+          width: 40px;
+          height: 40px;
+          left: 170px;
+          top: 200px;
+        
+        }
+        .buy16{
+          width:230px ;
+          height:370px ;
+          background-color:white ;
+          box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+          position: absolute;
+          top: 2400px;
+          left: 1025px;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        .id16{
+          color:#0055A6;
+        font-size: 17px;
+        position: absolute;
+        left: 10px;
+        top: 260px;
+        font-weight: bold;
+        
+        }
+        .nugget{
+          width:200px ;
+          height:226px ;
+          position: absolute;
+          left: 20px;
+        }
+        .plus16{
+          position: absolute;
+          color: #0055A6;
+          width: 40px;
+          height: 40px;
+          left: 170px;
+          top: 200px;
+        }
+        .add7{
+          border-radius: 10px;
+          width: 570px;
+          height: 170px;
+          position: absolute;
+          top: 2800px;
+          left: 80px;
+          cursor: pointer;
+          }
+          .add8{
+          border-radius: 10px;
+          width: 570px;
+          height: 170px;
+          position: absolute;
+          top: 2800px;
+          left: 680px;
+          cursor: pointer;
+          }
+
+.allfotlist{
+ list-style-type: none;
+}
+.allfotlist .li1{
+  display: inline-block;
+  position: absolute;
+  top: 3250px;
+  left: 20px;
+  color:#04376c;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.allfotlist .li2{
+ display: inline-block;
+  position: absolute;
+  top: 3250px;
+  left:400px ;
+  color:#04376c;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.allfotlist .li3{
+display: inline-block;
+  position: absolute;
+  top: 3250px;
+  left: 700px;
+  color:#04376c;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.allfotlist .li4{
+  display: inline-block;
+    position: absolute;
+    top: 3250px;
+    left: 1000px;
+    color:#04376c;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+.ul1 ,.ul2 ,.ul3 ,.ul4 {
+  list-style-type:circle;
+  color:#04376c;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+ display: block;
+ cursor: pointer;
+
+}
+.appstore{
+color: transparent; 
+border-radius: 9px; 
+border: 0.5px solid rgb(0, 0, 0); 
+position: relative; 
+object-fit: cover;
+top: 3350px;
+left: 1000px;
+}
+.playstore{
+color: transparent; 
+border-radius: 9px; 
+border: 0.5px solid rgb(0, 0, 0); 
+position: relative; 
+object-fit: cover;
+left: 1000px;
+top: 3350px;
+}
+.youtub{
+  color: transparent; 
+  border-radius: 0px; 
+  border: none; 
+  position: relative; 
+  object-fit: cover;
+  left: 950px;
+  top: 3420px;
+  width: 50px;
+  height: 50px;
+}
+.in{
+color: transparent; 
+border-radius: 0px; 
+border: none; 
+position: relative; 
+object-fit: cover;
+left: 840px;
+top: 3420px;
+width: 50px;
+height: 50px;
+}
+.insta{
+color: transparent;
+border-radius: 0px; 
+border: none; 
+position: relative; 
+object-fit: cover;
+left: 730px;
+top: 3420px;
+width: 50px;
+height: 50px;
+}
+.face{
+color: transparent;
+ border-radius: 0px; 
+ border: none; 
+ position: relative; 
+ object-fit: cover;
+ left: 620px;
+top: 3420px;
+width: 50px;
+height: 50px;
+}
+.marjane{
+  color:#0055A6;
+  font-size: 15px;
+  position: absolute;
+  left: 950px;
+  top: 3520px;
+  font-weight: bold;
+}
+.in2{
+  color: transparent; 
+  border-radius: 0px; 
+  border: none; 
+  position: relative; 
+  object-fit: cover;
+  left: 680px;
+  top: 3490px;
+  width: 50px;
+  height: 50px;
+  }
+  .insta2{
+  color: transparent;
+  border-radius: 0px; 
+  border: none; 
+  position: relative; 
+  object-fit: cover;
+  left: 570px;
+  top: 3490px;
+  width: 50px;
+  height: 50px;
+  }
+  .face2{
+  color: transparent;
+   border-radius: 0px; 
+   border: none; 
+   position: relative; 
+   object-fit: cover;
+   left: 460px;
+   top: 3490px;
+  width: 50px;
+  height: 50px;
+  }
+  .market{
+    color:#0055A6;
+    font-size: 15px;
+    position: absolute;
+    left: 950px;
+    top: 3590px;
+    font-weight: bold;
+  }
+  .lastp{
+    color:#0055A6;
+    font-size:inherit !important;
+    position: absolute;
+    left: 300px;
+    top: 3650px;
+    line-height:inherit !important;
+    text-align: inherit !important;
+  }
+  .logo{
+    display: none;
+  }
+  @media screen and (max-width: 800px) {
+   
+    body{
+      overflow-x: hidden;
+      width: 100%;
+      height: 4900px;
+    }
+    .middel{
+      list-style-type: none;
+      background-color:#0055A6;
+      box-shadow: 0px 0px 5px  rgb(10, 9, 9);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .middel li{
+      display: inline-block;
+      position: relative;
+     left: 30px;
+      top: 58.5px;  
+    }
+    .middel li a{
+      text-decoration: none;
+      display: block;
+      padding: 20px;
+      font-size: 15px;
+      text-align: left;
+      color: rgb(112, 109, 109);
+      font-family:"NotoSans";
+     
+    }
+    .logo{
+      position: absolute;
+      top: 5px;
+      width: 60px;
+      height: 60px;
+      display: inline;
+    }
+    .list{
+      width: 100%;
+      padding: 30px;
+      background-color: white;
+     display: flex;
+     justify-content: space-between;
+      
+    }
+    .seach{
+      border-radius: 50px;
+      width: 400px;
+      height: 40px;
+      position: absolute;
+      top:10px;
+      left:100px;
+      box-shadow: inset 0 0 30px  rgb(214, 226, 237);
+      border: 2px solid rgb(208, 208, 239);
+      color: rgb(165, 170, 197);
+    }
+    .headicon{
+    width: 15px;
+    height: 15px;
+    background-color: #0055A6;
+    border-radius: 100px;
+    position: absolute;
+    top: 30px;
+    left: 470px;
+    z-index: -1;
+    }   
+    .bodyicon{
+    width: 20px;
+    height: 10px;
+    background-color: #0055A6;
+    border-radius: 100px/100px 100px 0px 0px;
+    position: absolute;
+    top: 45px;
+    left: 468px;
+    z-index: -1;
+    }
+    .house{
+    color:#0055A6;
+    position:absolute;
+    top:70px;
+    left:0px;
+    }
+    .shop{
+    color:#f9fbfd;
+    position:absolute;
+    top:15px;
+    right:10px;
+    }
+    .search{
+    position: absolute;
+    top:25px;
+    left:110px ;
+    color:#0055A6 ;
+    width:20px ;
+    height: 20px;
+    }
+    .bluetext{
+    width: 130px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    }
+    .orangetext{
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    z-index: -1;
+    }
+    .charta{
+    
+    position: absolute;
+    top: 95px;
+    left: 1000px;
+    color: #0055A6;
+    font-family: "NotoSans";
+    font-size: 15px;
+    font-weight: bold; 
+    
+    
+    }
+    .hamllwajiha{
+    background-color: white;
+    width: 100%;
+    height: 4000px;
+    position: absolute;
+    top:130px ;
+    overflow: hidden;
+    }
+    .bigimage{
+    width: 100%;
+    position: absolute;
+    top:30px ;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    }
+    .smallone{
+    position: absolute;
+    background-color: white;
+    font-size: 17px;
+    width: 100%;
+    height: 170px;
+    box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+    top: 400px;
+    left: 0;
+    
+    border-radius: 7px;
+    
+    }
+    .smallone .ta3ajob{
+    color: black;
+    position: absolute;
+    left: 20px;
+    }
+    .redbutton{
+    background-color: #DD4C67;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    top:100px;
+    text-align: center;
+    left: 20px;
+    cursor: pointer;
+    opacity: 1;
+    }
+    .redbutton .inbutton{
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 23px; 
+    font-weight: bold;
+    }
+    .money{
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top:-100px;
+    left: 250px;
+    opacity: 1;
+    }
+    .talita{
+    width: 100%;
+    height: 170px;
+    box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+    top: 620px;
+    left: 0px;
+    border-radius: 8px;
+    position: absolute;
+    opacity: 1;
+    object-fit: cover;
+    cursor: pointer;
+    }
+    .tahtalita{
+    color:#0055A6;
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+    top: 800px;
+    font-weight: bold;
+    }
+    .smalltext{
+    color: #0055A6;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    top: 70px;
+    position: absolute;
+    }
+    .z1{
+    width: 70px;
+    height: 70px;
+    }
+    .vege{
+    position: absolute;
+    top: 840px;
+    left: 0px;
+    cursor: pointer;
+    }
+    .bread{
+    position: absolute;
+    top: 840px;
+    left: 80px;
+    cursor: pointer;
+    }
+    .ajban{
+    position: absolute;
+    top: 840px;
+    left: 160px;
+    cursor: pointer;
+    }
+    .siha{
+    position: absolute;
+    top: 840px;
+    left: 240px;
+    cursor: pointer;
+    }
+    .fator{
+    position: absolute;
+    top: 840px;
+    left: 320px;
+    cursor: pointer;
+    }
+    .drink{
+    position: absolute;
+    top: 840px;
+    left: 400px;
+    cursor: pointer;
+    }
+    .potato{
+    position: absolute;
+    top: 840px;
+    left: 480px;
+    cursor: pointer;
+    }
+    .ice{
+    position: absolute;
+    top: 840px;
+    left: 560px;
+    cursor: pointer;
+    }
+    .bottele{
+    position: absolute;
+    top: 840px;
+    left: 640px;
+    cursor: pointer;
+    }
+    .ver{
+    position: absolute;
+    top: 840px;
+    left: 835px;
+    cursor: pointer;
+    }
+    .move{
+    position: absolute;
+    top: 840px;
+    left: 920px;
+    cursor: pointer;
+    }
+    .pink{
+    position: absolute;
+    top: 840px;
+    left: 1005px;
+    cursor: pointer;
+    }
+    .nettoyage{
+    position: absolute;
+    top: 840px;
+    left: 1090px;
+    cursor: pointer;
+    }
+    .aqua{
+    position: absolute;
+    top: 840px;
+    left: 5px;
+    cursor: pointer;
+    }
+    .add-1{
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 970px;
+    left: 0px;
+    cursor: pointer;
+    }
+    .add-2{
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 1130px;
+    left: 0px;
+    cursor: pointer;
+    }
+    .tahtadd-1-2{
+    color:#0055A6;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    top: 1290px;
+    font-weight: bold;
+    }
+    .buy1{
+      width:230px ;
+      height:370px ;
+      background-color:white ;
+      box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+      position: absolute;
+      top: 1350px;
+      left: 30px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .id1{
+      color:#0055A6;
+    font-size: 17px;
+    position: absolute;
+    left: 10px;
+    top: 240px;
+    font-weight: bold;
+    
+    }
+    .ege{
+      width:200px ;
+      height:226px ;
+      position: absolute;
+      left: 20px;
+    }
+    .ten{
+     position: absolute;
+     z-index: 3;
+     width: 90px;
+     height: 90px;
+    }
+    .plus1{
+      position: absolute;
+      color: #0055A6;
+      width: 40px;
+      height: 40px;
+      left: 170px;
+      top: 200px;
+    
+    }
+    .STIK1{
+      position: absolute;
+       left: 190px;
+       top: 300px;
+     }
+     .RED1{
+       width: 63px;
+       height:25px ;
+       color:#DD4C67 ;
+       background-color:#FFE9EF ;
+       padding: 2px 6px;
+       border-radius: 50px;
+       position: absolute;
+       top:320px;
+       left:150px ;
+     }
+    
+    .buy2{
+      width:230px ;
+      height:370px ;
+      background-color:white ;
+      box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+      position: absolute;
+      top: 1350px;
+      left: 280px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .id2{
+      color:#0055A6;
+    font-size: 17px;
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    font-weight: bold;
+    
+    }
+    .NUT{
+      width:200px ;
+      height:226px ;
+      position: absolute;
+      left: 20px;
+    }
+    .ten{
+     position: absolute;
+     z-index: 3;
+     width: 90px;
+     height: 90px;
+    }
+    .plus2{
+      position: absolute;
+      color: #0055A6;
+      width: 40px;
+      height: 40px;
+      left: 170px;
+      top: 200px;
+    
+    }
+    .STIK2{
+     position: absolute;
+      left: 190px;
+      top: 300px;
+    }
+    .RED2{
+      width: 63px;
+      height:25px ;
+      color:#DD4C67 ;
+      background-color:#FFE9EF ;
+      padding: 2px 6px;
+      border-radius: 50px;
+      position: absolute;
+      top:320px;
+      left:150px ;
+    }
+    .buy3{
+      width:230px ;
+      height:370px ;
+      background-color:white ;
+      box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+      position: absolute;
+      top: 1350px;
+      left: 530px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .id3{
+      color:#0055A6;
+    font-size: 17px;
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    font-weight: bold;
+    
+    }
+    .CLI{
+      width:200px ;
+      height:226px ;
+      position: absolute;
+      left: 20px;
+    }
+    .ten{
+     position: absolute;
+     z-index: 3;
+     width: 90px;
+     height: 90px;
+    }
+    .plus3{
+      position: absolute;
+      color: #0055A6;
+      width: 40px;
+      height: 40px;
+      left: 170px;
+      top: 200px;
+    
+    }
+    .STIK3{
+     position: absolute;
+      left: 190px;
+      top: 300px;
+    }
+    .RED3{
+      width: 63px;
+      height:25px ;
+      color:#DD4C67 ;
+      background-color:#FFE9EF ;
+      padding: 2px 6px;
+      border-radius: 50px;
+      position: absolute;
+      top:320px;
+      left:150px ;
+    }
+    .buy4{
+      width:230px ;
+      height:370px ;
+      background-color:white ;
+      box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+      position: absolute;
+      top: 1350px;
+      left: 780px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .id4{
+      color:#0055A6;
+    font-size: 17px;
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    font-weight: bold;
+    
+    }
+    .ZIT{
+      width:200px ;
+      height:226px ;
+      position: absolute;
+      left: 20px;
+    }
+    .ten{
+     position: absolute;
+     z-index: 3;
+     width: 90px;
+     height: 90px;
+    }
+    .plus4{
+      position: absolute;
+      color: #0055A6;
+      width: 40px;
+      height: 40px;
+      left: 170px;
+      top: 200px;
+    
+    }
+    .STIK4{
+     position: absolute;
+      left: 190px;
+      top: 300px;
+    }
+    .RED4{
+      width: 63px;
+      height:25px ;
+      color:#DD4C67 ;
+      background-color:#FFE9EF ;
+      padding: 2px 6px;
+      border-radius: 50px;
+      position: absolute;
+      top:320px;
+      left:150px ;
+    }
+    .buy5{
+      width:230px ;
+      height:370px ;
+      background-color:white ;
+      box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+      position: absolute;
+      top: 1350px;
+      left: 1025px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .id5{
+      color:#0055A6;
+    font-size: 17px;
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    font-weight: bold;
+    
+    }
+    .WATER{
+      width:200px ;
+      height:226px ;
+      position: absolute;
+      left: 20px;
+    }
+    .ten{
+     position: absolute;
+     z-index: 3;
+     width: 90px;
+     height: 90px;
+    }
+    .plus5{
+      position: absolute;
+      color: #0055A6;
+      width: 40px;
+      height: 40px;
+      left: 170px;
+      top: 200px;
+    
+    }
+    .STIK5{
+     position: absolute;
+      left: 190px;
+      top: 300px;
+    }
+    .RED5{
+      width: 63px;
+      height:25px ;
+      color:#DD4C67 ;
+      background-color:#FFE9EF ;
+      padding: 2px 6px;
+      border-radius: 50px;
+      position: absolute;
+      top:320px;
+      left:150px ;
+    }
+    .tahtaddbuys{
+      color:#0055A6;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    top: 1750px;
+    font-weight: bold;
+    }
+    .text{
+      color: #0055A6;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      }
+      .s1{
+      width: 70px;
+      height: 70px;
+      }
+      .maki{
+      position: absolute;
+      top: 1800px;
+      left: 30px;
+      cursor: pointer;
+      }
+      .monik{
+      position: absolute;
+      top: 1800px;
+      left: 130px;
+      cursor: pointer;
+      }
+      .clim{
+      position: absolute;
+      top: 1800px;
+      left: 230px;
+      cursor: pointer;
+      }
+        .camera{
+        position: absolute;
+        top: 1800px;
+        left: 330px;
+        cursor: pointer;
+        }
+        .phone{
+        position: absolute;
+        top: 1800px;
+        left: 430px;
+        cursor: pointer;
+        }
+        .add3{
+          border-radius: 10px;
+          width: 100%;
+          height: 140px;
+          position: absolute;
+          top: 1950px;
+          left: 0px;
+          cursor: pointer;
+          }
+          .add4{
+          border-radius: 10px;
+          width: 100%;
+          height: 140px;
+          position: absolute;
+          top: 2100px;
+          left: 0px;
+          cursor: pointer;
+          }
+          .tahtadd3-4{
+            color:#0055A6;
+          font-size: 20px;
+          position: absolute;
+          left: 30px;
+          top: 2270px;
+          font-weight: bold;
+          }
+          .buy6{
+            width:230px ;
+            height:370px ;
+            background-color:white ;
+            box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+            position: absolute;
+            top: 2300px;
+            left: 30px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+          .id6{
+            color:#0055A6;
+          font-size: 17px;
+          position: absolute;
+          left: 10px;
+          top: 240px;
+          font-weight: bold;
+          
+          }
+          .dragon{
+            width:200px ;
+            height:226px ;
+            position: absolute;
+            left: 20px;
+          }
+          .plus6{
+            position: absolute;
+            color: #0055A6;
+            width: 40px;
+            height: 40px;
+            left: 170px;
+            top: 200px;
+          
+          }
+          
+          .buy7{
+            width:230px ;
+            height:370px ;
+            background-color:white ;
+            box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+            position: absolute;
+            top: 2300px;
+            left: 280px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+          .id7{
+            color:#0055A6;
+          font-size: 17px;
+          position: absolute;
+          left: 10px;
+          top: 240px;
+          font-weight: bold;
+          
+          }
+          .khokha{
+            width:200px ;
+            height:226px ;
+            position: absolute;
+            left: 20px;
+          }
+          .eleven{
+           position: absolute;
+           z-index: 3;
+           width: 90px;
+           height: 90px;
+          }
+          .plus7{
+            position: absolute;
+            color: #0055A6;
+            width: 40px;
+            height: 40px;
+            left: 170px;
+            top: 200px;
+          
+          }
+          .STIK7{
+           position: absolute;
+            left: 190px;
+            top: 300px;
+          }
+          .RED7{
+            width: 63px;
+            height:25px ;
+            color:#DD4C67 ;
+            background-color:#FFE9EF ;
+            padding: 2px 6px;
+            border-radius: 50px;
+            position: absolute;
+            top:320px;
+            left:150px ;
+          }
+          .buy8{
+            width:230px ;
+            height:370px ;
+            background-color:white ;
+            box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+            position: absolute;
+            top: 2300px;
+            left: 530px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+          .id8{
+            color:#0055A6;
+          font-size: 17px;
+          position: absolute;
+          left: 10px;
+          top: 260px;
+          font-weight: bold;
+          
+          }
+          .enb{
+            width:200px ;
+            height:226px ;
+            position: absolute;
+            left: 20px;
+          }
+          .plus8{
+            position: absolute;
+            color: #0055A6;
+            width: 40px;
+            height: 40px;
+            left: 170px;
+            top: 200px;
+          
+          }
+          .buy9{
+            width:230px ;
+            height:370px ;
+            background-color:white ;
+            box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+            position: absolute;
+            top: 2300px;
+            left: 780px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+          .id9{
+            color:#0055A6;
+          font-size: 17px;
+          position: absolute;
+          left: 10px;
+          top: 260px;
+          font-weight: bold;
+          
+          }
+          .enbkhal{
+            width:200px ;
+            height:226px ;
+            position: absolute;
+            left: 20px;
+          }
+          .plus9{
+            position: absolute;
+            color: #0055A6;
+            width: 40px;
+            height: 40px;
+            left: 170px;
+            top: 200px;
+          
+          }
+          .buy10{
+            width:230px ;
+            height:370px ;
+            background-color:white ;
+            box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+            position: absolute;
+            top: 2300px;
+            left: 1025px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+          .id10{
+            color:#0055A6;
+          font-size: 17px;
+          position: absolute;
+          left: 10px;
+          top: 260px;
+          font-weight: bold;
+          
+          }
+          .enbhamr{
+            width:200px ;
+            height:226px ;
+            position: absolute;
+            left: 20px;
+          }
+          .plus10{
+            position: absolute;
+            color: #0055A6;
+            width: 40px;
+            height: 40px;
+            left: 170px;
+            top: 200px;
+          }
+          .add5{
+            border-radius: 10px;
+            width: 100%;
+            height: 170px;
+            position: absolute;
+            top: 2700px;
+            left: 0px;
+            cursor: pointer;
+            }
+            .add6{
+            border-radius: 10px;
+            width: 100%;
+            height: 170px;
+            position: absolute;
+            top: 2900px;
+            left: 0px;
+            cursor: pointer;
+            }
+            .tahtadd5-6{
+              color:#04376c;
+            font-size: 20px;
+            position: absolute;
+            left: 30px;
+            top: 3100px;
+            font-weight: bolder;
+            line-height: 25px;
+            }  
+            .buy12{
+              width:230px ;
+              height:370px ;
+              background-color:white ;
+              box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+              position: absolute;
+              top: 3150px;
+              left: 30px;
+              border-radius: 10px;
+              cursor: pointer;
+            }
+            .id12{
+              color:#0055A6;
+            font-size: 17px;
+            position: absolute;
+            left: 10px;
+            top: 240px;
+            font-weight: bold;
+            
+            }
+            .zitbya{
+              width:200px ;
+              height:226px ;
+              position: absolute;
+              left: 20px;
+            }
+            .plus12{
+              position: absolute;
+              color: #0055A6;
+              width: 40px;
+              height: 40px;
+              left: 170px;
+              top: 200px;
+            
+            }
+            
+            .buy13{
+              width:230px ;
+              height:370px ;
+              background-color:white ;
+              box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+              position: absolute;
+              top: 3150px;
+              left: 280px;
+              border-radius: 10px;
+              cursor: pointer;
+            }
+            .id13{
+              color:#0055A6;
+            font-size: 17px;
+            position: absolute;
+            left: 10px;
+            top: 260px;
+            font-weight: bold;
+            
+            }
+            .sais{
+              width:200px ;
+              height:226px ;
+              position: absolute;
+              left: 20px;
+            }
+            .plus13{
+              position: absolute;
+              color: #0055A6;
+              width: 40px;
+              height: 40px;
+              left: 170px;
+              top: 200px;
+            
+            }
+            .buy14{
+              width:230px ;
+              height:370px ;
+              background-color:white ;
+              box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+              position: absolute;
+              top: 3150px;
+              left: 530px;
+              border-radius: 10px;
+              cursor: pointer;
+            }
+            .id14{
+              color:#0055A6;
+            font-size: 17px;
+            position: absolute;
+            left: 10px;
+            top: 260px;
+            font-weight: bold;
+            
+            }
+            .bahi{
+              width:200px ;
+              height:226px ;
+              position: absolute;
+              left: 20px;
+            }
+            .plus14{
+              position: absolute;
+              color: #0055A6;
+              width: 40px;
+              height: 40px;
+              left: 170px;
+              top: 200px;
+            
+            }
+            .buy15{
+              width:230px ;
+              height:370px ;
+              background-color:white ;
+              box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+              position: absolute;
+              top: 3150px;
+              left: 780px;
+              border-radius: 10px;
+              cursor: pointer;
+            }
+            .id15{
+              color:#0055A6;
+            font-size: 17px;
+            position: absolute;
+            left: 10px;
+            top: 260px;
+            font-weight: bold;
+            
+            }
+            .sali{
+              width:200px ;
+              height:226px ;
+              position: absolute;
+              left: 20px;
+            }
+            .plus15{
+              position: absolute;
+              color: #0055A6;
+              width: 40px;
+              height: 40px;
+              left: 170px;
+              top: 200px;
+            
+            }
+            .buy16{
+              width:230px ;
+              height:370px ;
+              background-color:white ;
+              box-shadow:  0px 0px 10px  rgb(124, 124, 126);
+              position: absolute;
+              top: 3150px;
+              left: 1025px;
+              border-radius: 10px;
+              cursor: pointer;
+            }
+            .id16{
+              color:#0055A6;
+            font-size: 17px;
+            position: absolute;
+            left: 10px;
+            top: 260px;
+            font-weight: bold;
+            
+            }
+            .nugget{
+              width:200px ;
+              height:226px ;
+              position: absolute;
+              left: 20px;
+            }
+            .plus16{
+              position: absolute;
+              color: #0055A6;
+              width: 40px;
+              height: 40px;
+              left: 170px;
+              top: 200px;
+            }
+            .add7{
+              border-radius: 10px;
+              width: 100%;
+              height: 170px;
+              position: absolute;
+              top: 3570px;
+              left: 0px;
+              cursor: pointer;
+              }
+              .add8{
+              border-radius: 10px;
+              width: 100%;
+              height: 170px;
+              position: absolute;
+              top: 3770px;
+              left: 0px;
+              cursor: pointer;
+              }
+    
+    .allfotlist{
+     list-style-type: none;
+    }
+    .allfotlist .li1{
+      display: inline-block;
+      position: absolute;
+      top: 4200px;
+      left: 20px;
+      color:#04376c;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+    .allfotlist .li2{
+     display: inline-block;
+      position: absolute;
+      top: 4200px;
+      left:400px ;
+      color:#04376c;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+    .allfotlist .li3{
+    display: inline-block;
+      position: absolute;
+      top: 4400px;
+      left: 20px;
+      color:#04376c;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+    .allfotlist .li4{
+      display: inline-block;
+        position: absolute;
+        top: 4400px;
+        left: 400px;
+        color:#04376c;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+    .ul1 ,.ul2 ,.ul3 ,.ul4 {
+      list-style-type:circle;
+      color:#04376c;
+      font-size: 17px;
+      font-weight: bold;
+      text-decoration: none;
+     display: block;
+     cursor: pointer;
+    
+    }
+    .appstore{
+    color: transparent; 
+    border-radius: 9px; 
+    border: 0.5px solid rgb(0, 0, 0); 
+    position: absolute; 
+    object-fit: cover;
+    top: 4620px;
+    left: 300px;
+    }
+    .playstore{
+    color: transparent; 
+    border-radius: 9px; 
+    border: 0.5px solid rgb(0, 0, 0); 
+    position: relative; 
+    object-fit: cover;
+    left: 420px;
+    top: 4490px;
+    }
+    .youtub{
+      color: transparent; 
+      border-radius: 0px; 
+      border: none; 
+      position: relative; 
+      object-fit: cover;
+      left:400px;
+      top: 4580px;
+      width: 50px;
+      height: 50px;
+    }
+    .in{
+    color: transparent; 
+    border-radius: 0px; 
+    border: none; 
+    position: relative; 
+    object-fit: cover;
+    left: 290px;
+    top: 4580px;
+    width: 50px;
+    height: 50px;
+    }
+    .insta{
+    color: transparent;
+    border-radius: 0px; 
+    border: none; 
+    position: relative; 
+    object-fit: cover;
+    left: 180px;
+    top: 4580px;
+    width: 50px;
+    height: 50px;
+    }
+    .face{
+    color: transparent;
+     border-radius: 0px; 
+     border: none; 
+     position: relative; 
+     object-fit: cover;
+     left: 70px;
+     top: 4580px;
+    width: 50px;
+    height: 50px;
+    }
+    .marjane{
+      color:#0055A6;
+      font-size: 15px;
+      position: absolute;
+      left: 290px;
+      top: 4700px;
+      font-weight: bold;
+    }
+    .in2{
+      color: transparent; 
+      border-radius: 0px; 
+      border: none; 
+      position: relative; 
+      object-fit: cover;
+      left: 130px;
+      top: 4650px;
+      width: 50px;
+      height: 50px;
+      }
+      .insta2{
+      color: transparent;
+      border-radius: 0px; 
+      border: none; 
+      position: relative; 
+      object-fit: cover;
+      left: 20px;
+      top: 4650px;
+      width: 50px;
+      height: 50px;
+      }
+      .face2{
+      color: transparent;
+       border-radius: 0px; 
+       border: none; 
+       position: relative; 
+       object-fit: cover;
+       left: -90px;
+       top: 4650px;
+      width: 50px;
+      height: 50px;
+      }
+      .market{
+        color:#0055A6;
+        font-size: 15px;
+        position: absolute;
+        left: 290px;
+        top: 4750px;
+        font-weight: bold;
+      }
+      .lastp{
+        color:#0055A6;
+        font-size:inherit !important;
+        position: absolute;
+        left: 70px;
+        top: 4870px;
+        line-height:inherit !important;
+        text-align: inherit !important;
+      }
+    .scroll{
+      height: 390px;
+      width: 100%;
+      overflow-y: scroll;
+    }
+    
+  }
+
+
